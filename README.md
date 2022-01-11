@@ -1,4 +1,4 @@
-# Big Game Survey 
+# API-MOVIE
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/ssjackbr/api-movie/blob/master/LICENSE) 
 
 # Sobre o projeto
@@ -7,7 +7,7 @@ Criar projetos backend e frontend
 Salvar os projeto no Github em monorepo
 Montar o visual estático do front end
 
-API-MOVIE é uma aplicação full stack web que consiste em uma pesquisa de preferência de filmes onde as votações são computadas e atualizadas instantaneamente
+A api-movie é uma aplicação full stack web que consiste em uma pesquisa de preferência de filmes onde as votações são computadas e atualizadas instantaneamente
 
 # Tecnologias utilizadas
 ## Back end
