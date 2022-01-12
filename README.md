@@ -2,12 +2,13 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/ssjackbr/api-movie/blob/master/LICENSE) 
 
 # Sobre o projeto
+ 
+A api-movie é uma aplicação full stack web que consiste em uma pesquisa de preferência de filmes onde as votações são computadas e atualizadas instantaneamente.
 
-Criar projetos backend e frontend
-Salvar os projeto no Github em monorepo
-Montar o visual estático do front end
-
-A api-movie é uma aplicação full stack web que consiste em uma pesquisa de preferência de filmes onde as votações são computadas e atualizadas instantaneamente
+## Etapas do projeto
+- Criação de projetos backend e frontend
+- Projetos salvos em monorepo
+- Visual estático do front end
 
 # Tecnologias utilizadas
 ## Back end
