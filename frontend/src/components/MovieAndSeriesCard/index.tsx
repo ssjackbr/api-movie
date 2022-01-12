@@ -1,4 +1,6 @@
 import MovieAndSeriesScore from "components/MovieAndSeriesScore";
+import { Link } from "react-router-dom";
+import './style.css';
 
 function MovieAndSeriesCard() {
 
@@ -15,7 +17,10 @@ function MovieAndSeriesCard() {
             <div className="api-movie-card-bottom-container">
                 <h3>{movie.title}</h3>
                 <MovieAndSeriesScore />
-                <div className="btn btn-primary api-movie-btn">Avaliar</div>
+
+                <Link to={'/form/${movie.id}'}>
+                    <div className="btn btn-primary api-movie-btn">Avaliar</div>
+                </Link> 
             </div>
         </div>
     );
