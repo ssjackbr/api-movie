@@ -31,7 +31,7 @@ public class Movie implements Serializable {
 
     @NotNull
     @NotBlank
-    @Column(name = "image_url")
+    @Column(name = "image")
     private String image;
 
     @NotNull
