@@ -21,6 +21,7 @@ public class Score {
     @Column(name = "value")
     private Double value;
 
+
     public void setMovie(Movie movie){
         id.setMovie(movie);
     }
