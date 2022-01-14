@@ -17,8 +17,7 @@ function MovieAndSeriesCard() {
             <div className="api-movie-card-bottom-container">
                 <h3>{movie.title}</h3>
                 <MovieAndSeriesScore />
-
-                <Link to={'/form/${movie.id}'}>
+                <Link to={`/form/${movie.id}`}>
                     <div className="btn btn-primary api-movie-btn">Avaliar</div>
                 </Link> 
             </div>
