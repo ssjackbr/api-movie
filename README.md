@@ -3,7 +3,7 @@
 
 # Sobre o projeto
  
-A api-movie é uma aplicação full stack web que consiste em uma pesquisa de preferência de filmes onde as votações são computadas e atualizadas instantaneamente.
+A api-movie é uma aplicação full stack web que consiste em uma pesquisa de preferência de filmes e séries onde as votações são computadas e atualizadas instantaneamente.
 
 ## Etapas do projeto
 - Criação de projetos backend e frontend
@@ -26,6 +26,12 @@ A api-movie é uma aplicação full stack web que consiste em uma pesquisa de pr
 - Back end: Heroku
 - Front end web: Netlify
 - Banco de dados: Postgresql
+
+# Lógica:
+- Informar email, id do filme e valor da avaliação (1 a 5).
+- Recuperar usuário do banco de dados pelo email. Se o usuário não existir, insira no banco.
+- Salvar a avaliação do usuário para o dado filme.
+- Recalcular a avaliação média do filme e salvar no banco de dados.
 
 # Como executar o projeto
 
