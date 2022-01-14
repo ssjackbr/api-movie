@@ -20,6 +20,7 @@ function FormCard( {movieId} : Props) {
             setMovie(respons.data);
         });
     })
+    
     return (
         <div className="api-movie-form-container">
             <img className="api-movie-movie-card-image" src={movie?.image} alt={movie?.title} />
