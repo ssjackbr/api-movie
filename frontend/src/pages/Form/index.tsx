@@ -1,47 +1,12 @@
-import { Link } from 'react-router-dom';
-import './styles.css';
+import FormCard from 'components/FormCard';
+import { useParams } from 'react-router-dom';
 
 function Form() {
 
-    const movie = {
-        id: 1,
-        image: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
-        title: "The Witcher",
-        count: 2,
-        score: 5
-    };
-
+    const params = useParams();
+    
     return (
-        <div className="api-movie-form-container">
-            <img className="api-movie-movie-card-image" src={movie.image} alt={movie.title} />
-            <div className="api-movie-card-bottom-container">
-                <h3>{movie.title}</h3>
-                <form className="api-movie-form">
-                    <div className="form-group api-movie-form-group">
-                        <label htmlFor="email">Informe seu email</label>
-                        <input type="email" className="form-control" id="email" />
-                    </div>
-                    <div className="form-group api-movie-form-group">
-                        <label htmlFor="score">Informe sua avaliação</label>
-                        <select className="form-control" id="score">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
-                    </div>
-                    <div className="api-movie-form-btn-container">
-                        <button type="submit" className="btn btn-primary api-movie-btn">Salvar</button>
-                    </div>
-                </form >
-
-                <Link to="/">
-                    <button className="btn btn-primary api-movie-btn mt-3">Cancelar</button>
-                </Link>
-
-            </div >
-        </div >
+       <FormCard movieId= {`${params.movieId}`} /> 
     );
 }
 
