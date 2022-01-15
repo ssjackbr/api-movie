@@ -9,17 +9,16 @@ type Props = {
     movieId: string;
  }
 
-
 function FormCard( {movieId} : Props) {
     
     const [movie, setMovie] = useState<Movie>();
 
     useEffect(() => {
         axios.get(`${BASE_URL}/movies/${movieId}`)
-        .then(respons => {
-            setMovie(respons.data);
+        .then(response => {
+            setMovie(response.data);
         });
-    })
+    }, [movieId]);
     
     return (
         <div className="api-movie-form-container">
