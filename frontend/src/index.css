@@ -1,19 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap'); */
+/*@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
 
 :root {
-  --color-primary: #4D41C0;
+  --color-primary: #E50914;
 }
 
 * {
+  /*font-family: 'Open Sans', sans-serif;
+    font-family: 'Permanent Marker', cursive; */
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 html, body {
-    background-color: #E5E5E5;
+    background-color: #000000;
 }
 
 a, a:hover {
   text-decoration: none;
   color: unset;
+} 
+
+.btn-primary {
+  color: #fff;
+  background-color: #E50914;
+  border-color: #E50914;
+}
+
+.btn-primary:hover {
+  background-color: #fff; 
+  color: #E50914;
+  border-color: #E50914;
 }

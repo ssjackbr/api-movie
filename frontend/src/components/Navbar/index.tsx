@@ -7,7 +7,7 @@ function Navbar() {
         <header>
         <nav className="container">
             <div className="api-movie-nav-content">
-                <h1>Movies and Series</h1>
+                <h1>Movies and Series </h1>
                 <a href="https://github.com/ssjackbr/api-movie" target="_blank" rel="noreferrer">
                     <div className="api-movie-contact-container">
                         <GithubIcon />
