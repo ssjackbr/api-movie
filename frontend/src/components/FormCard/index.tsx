@@ -33,6 +33,7 @@ function FormCard( {movieId} : Props) {
                     <div className="form-group api-movie-form-group">
                         <label htmlFor="score">Informe sua avaliação</label>
                         <select className="form-control" id="score">
+                            <option></option>
                             <option>1</option>
                             <option>2</option>
                             <option>3</option>

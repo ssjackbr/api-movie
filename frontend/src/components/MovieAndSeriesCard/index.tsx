@@ -13,7 +13,7 @@ function MovieAndSeriesCard( {movie}: Props) {
             <img className="api-movie-movie-card-image" src={movie.image} alt={movie.title} />
             <div className="api-movie-card-bottom-container">
                 <h3>{movie.title}</h3>
-                <MovieAndSeriesScore />
+                <MovieAndSeriesScore  count = {movie.count} score = {movie.score}/>
                 <Link to={`/form/${movie.id}`}>
                     <div className="btn btn-primary api-movie-btn">Avaliar</div>
                 </Link> 
